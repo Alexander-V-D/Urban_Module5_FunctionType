@@ -8,7 +8,7 @@ fun main() {
 
     //Задача 3
     val array = arrayOf(1, 2, 3, 4, 5, 6, 7)
-    var task3Result = increaseBy1EachEvenIndexAtArray(array)
+    val task3Result = increaseBy1EachEvenIndexAtArray(array)
     print("Ответ к задаче 3: [")
     for (i in task3Result.indices) {
         if (i == task3Result.size - 1) {
